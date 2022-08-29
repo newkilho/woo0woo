@@ -1,0 +1,28 @@
+body {
+	background-attachment: fixed;
+	background-image: url(../img/background.jpg); 
+	background-repeat: no-repeat; 
+	background-position: center; 
+	background-size: cover;
+	font-family: "NEXONLv2Gothic", sans-serif !important;
+
+	 -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+	display: none;
+}
+
+.box{
+	padding: 20px 10px 20px 10px
+
+	-ms-overflow-style: none;
+}
+.box::-webkit-scrollbar{
+	display:none;
+}
+
+#message {
+	font-size: 2rem;
+	color: #fff;
+	text-shadow: 1px 1px 0px #000;
+}
